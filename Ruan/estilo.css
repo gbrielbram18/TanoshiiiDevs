@@ -1,0 +1,29 @@
+
+#foto{ 
+ 
+  text-align: center;
+  background-color:#00509d;
+  margin: 10px 10px 10px 10px;
+  border: solid black;
+  border-width: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+#sinopse{ 
+  width: 400px;
+  text-align: justify;
+  margin: 10px 10px 10px 10px;
+  padding: 35px 50px 20px 45px;
+  box-sizing: content-box;
+  font-size:22px;color:#f4f3ee;
+  font-family:arial;
+}
+main{
+    display:flex;
+}
+body{
+    background: rgb(48, 46, 46);
+    background-image:url(https://cdn.iconscout.com/icon/premium/png-256-thumb/pokeball-8162415-6504836.png?f=webp);
+}
+
+
