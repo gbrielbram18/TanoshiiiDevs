@@ -1,10 +1,54 @@
 body{
-  background-color: rgb(48, 46, 46);
-  background-image: url(../img/dagao.png);
+  background-color: #0F3460;
+  background-image: url(../img/balls.png);
+  color: rgb(255, 255, 255);
 }
 .meioinfos{
 display: flex;
 }
-.meioinfos{
 
+.sumer{
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 16px #0008
+  
+  
+}
+.meioinfos{
+  padding: 10px;
+}
+.lista{  
+  background-color:#000000de;
+  border: 2px solid #0F3460;
+  padding: 10px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 2px 16px #0008}
+.episodios {
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 2px 16px #0008;
+}
+
+.episodios h4 {
+  color:white;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.episodios ul {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+.episodios li {
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  line-height: 1.5;
 }
