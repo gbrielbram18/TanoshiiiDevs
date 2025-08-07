@@ -1,0 +1,33 @@
+
+#foto{ 
+ 
+  text-align: center;
+  line-height: 1;
+
+  border: solid black;
+  border-width: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+
+}
+#sinopse{ 
+  background-color: black;
+  height: 200px;
+  text-align: justify;
+  line-height: 1;
+  margin: 10px 10px 10px 10px;
+  padding: 35px 50px 20px 45px;
+  box-sizing: content-box;
+  font-size:22px;color:#f4f3ee;
+  font-family:arial;
+}
+main{
+    display:flex;
+}
+body{
+    background: rgb(48, 46, 46);
+    background-image: url("../img/nuvem.png");
+}
+h1{font-size:30px;
+   font-family:ravie;
+   color:#ffd500;
+}
