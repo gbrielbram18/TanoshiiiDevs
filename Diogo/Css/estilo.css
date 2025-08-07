@@ -1,33 +1,71 @@
-
-#foto{ 
- 
-  text-align: center;
-  line-height: 1;
-
-  border: solid black;
-  border-width: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-
-}
-#sinopse{ 
-  background-color: black;
-  height: 200px;
-  text-align: justify;
-  line-height: 1;
-  margin: 10px 10px 10px 10px;
-  padding: 35px 50px 20px 45px;
-  box-sizing: content-box;
-  font-size:22px;color:#f4f3ee;
-  font-family:arial;
-}
-main{
-    display:flex;
-}
 body{
-    background: rgb(48, 46, 46);
-    background-image: url("../img/nuvem.png");
+  background-color: #0F3460;
+  background-image: url(../img/balls.png);
+  color: rgb(255, 255, 255);
 }
-h1{font-size:30px;
-   font-family:ravie;
-   color:#ffd500;
+.meioinfos{
+display: flex;
+}
+
+header{
+    width: 0 auto;
+    padding: 2.5rem;
+    margin: 15px auto;
+    background-color:rgba(0, 0, 0, 0.966);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #0F3460;
+    text-decoration: none;
+}
+
+.sumer{
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 16px #0008
+  
+  
+}
+.meioinfos{
+  padding: 10px;
+}
+.lista{  
+  background-color:#000000de;
+  border: 2px solid #0F3460;
+  padding: 10px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 2px 16px #0008}
+.episodios {
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 2px 16px #0008;
+}
+
+.episodios h4 {
+  color:white;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.episodios ul {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+.episodios li {
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+.cpirait{
+   background-color:#0F3460;
+  padding:5px 5px 5px 5px;
 }

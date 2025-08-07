@@ -1,49 +1,128 @@
-body{
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(48, 46, 46);
+    background: #1A1A2E;
+    color: #f0f0f0;
+    line-height: 1.6;
 }
 
-h1{
-    color: white;
-}
-
-h2{
-    color: white;
-}
-header{
-    width: 0 auto;
+/* Cabeçalho */
+header {
+    width: 100%;
     padding: 2.5rem;
-    margin: 15px auto;
-    background-color: black;
-    
+    margin-bottom: 30px;
+    background-color: #0F0F2D;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
-    text-decoration: none;
+    border: 2px solid #0F3460;
+    border-radius: 8px;
 }
 
-
+header h1 {
+    color: white;
+    font-size: 2rem;
+}
 
 header ul {
-
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
+    list-style: none;
     display: flex;
     gap: 2rem;
-
 }
 
+header ul li a {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
 
-.fundo{
-    padding-top: 10px;
+header ul li a:hover {
+    color: #ffffff;
+}
+
+/* Container geral */
+.fundo {
     padding: 25px;
-      
+}
+
+/* Seções de conteúdo */
+.quadrado,
+.sobre {
+    background-color: #0f0f2d;
+    border: 2px solid #0F3460;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(15, 52, 96, 0.3);
+}
+
+.quadrado p,
+.sobre p {
+    color: #e0e0e0;
+    margin-top: 10px;
+}
+
+/* Imagem dentro do texto */
+.sobre img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo do título */
+h1, h2 {
+    color: #ffffff;
+}
+
+/* Rodapé */
+.cpirait {
+    background-color: #0F3460;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
 
 
+.card-animes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.card {
+    background-color: #0F0F2D;
+    border: 1px solid #0F3460;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
 
-      
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
