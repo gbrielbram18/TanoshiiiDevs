@@ -1,29 +1,44 @@
+#foto {
 
-#foto{ 
- 
   text-align: center;
-  background-color:#00509d;
+  background-color: #00509d;
   margin: 10px 10px 10px 10px;
   border: solid black;
   border-width: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
+  flex-basis: 20%;
 }
-#sinopse{ 
-  width: 400px;
+
+#sinopse {
+  width: 200px;
   text-align: justify;
   margin: 10px 10px 10px 10px;
-  padding: 35px 50px 20px 45px;
+  padding: 35px 35px 20px 35px;
   box-sizing: content-box;
-  font-size:22px;color:#f4f3ee;
-  font-family:arial;
-}
-main{
-    display:flex;
-}
-body{
-    background: rgb(48, 46, 46);
-    background-image:url(https://cdn.iconscout.com/icon/premium/png-256-thumb/pokeball-8162415-6504836.png?f=webp);
+  font-size: 22px;
+  color: #f4f3ee;
+  font-family: arial;
+  background-color: black;
+  flex-basis: 80%
 }
 
+section {
+  display: flex;
+}
 
+body {
+  background: rgb(48, 46, 46);
+  background-image: url(img/pk.png);
+}
+
+h2 {
+  font-size: 25px;
+}
+
+div {
+  font-size: 25px;
+  color: #fdc500;
+  font-family: arial;
+
+}
