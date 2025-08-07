@@ -1,3 +1,4 @@
+
 /*
 	Este é um comentário de multiplas linhas
 */
@@ -35,4 +36,9 @@ body{
 main{
     display: flex;
 
+}
+
+.titulo h3{
+    color: gray;
+    font-size: 15px;
 }
