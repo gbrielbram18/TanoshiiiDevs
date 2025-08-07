@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(48, 46, 46);
+    background: #1A1A2E;
+    padding: 0 auto;
 }
 
 h1{
@@ -19,10 +20,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #0F3460;
     text-decoration: none;
 }
 
+label{
+    color: white;
+    
+}
 
 
 header ul {
@@ -38,9 +43,52 @@ header ul {
 .fundo{
     padding-top: 10px;
     padding: 25px;
-      
+    
+    
 }
 
+
+
+
+.quadrado{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid#0F3460;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.quadrado p{
+    color: white;
+    padding-left: 10px;
+
+}
+
+.sobre{
+    background-color: black;
+    border: 2px solid #0F3460;
+    
+    
+}
+
+.sobre h2{
+    padding-left: 10px;
+}
+
+.sobre p{
+    color: white;
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+.cpirait{
+   background-color:#0F3460;
+  padding:5px 5px 5px 5px;
+}
 
 
 
