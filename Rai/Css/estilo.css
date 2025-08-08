@@ -1,48 +1,162 @@
-
-/*
-	Este é um comentário de multiplas linhas
-*/
-.titulo{
-	background-color: rgb(48, 46, 46);
-    font-size: 25px;                
-    padding: 10px auto;
-    padding-left: 10px;
-    font-family: Arial, Helvetica, sans-serif; 
-    color: white;
+body{
+  background-color: #0F3460;
+  background-image: url(../img/balls.png);
+  color: rgb(255, 255, 255);
+}
+.meioinfos{
+display: flex;
 }
 
-.titulo h1{
-    color: white;
+header {
+    width: 100%;
+    padding: 2.5rem;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #0F3460;
+    border-radius: 8px;
+    
 }
 
-
-p{
-font-size: 15px;
+.sumer{
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 16px #0008;
+  border-radius: 8px;
+  
+  
+}
+.meioinfos{
+  padding: 10px;
+}
+.lista{  
+  background-color:#000000de;
+  border: 2px solid #0F3460;
+  padding: 10px;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008
+}
+  
+.episodios {
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008;
 }
 
-img{ 
+.episodios h4 {
+  color:white;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.episodios ul {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+.episodios li {
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+.cpirait{
+  background-color:#0F3460;
+  padding:5px 5px 5px 5px;
+  border-radius: 8px;
+}
+body{
+  background-color: #0F3460;
+  background-image: url(../img/png-clipart-one-piece-jolly-roger-dock-and-folder-icons-by-luffy-jolly-roger-straw-hat-pirates-logo-thumbnail-removebg-preview.png);
+  color: rgb(255, 255, 255);
+}
+.meioinfos{
+display: flex;
+}
+
+header {
+    width: 100%;
+    padding: 2.5rem;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #0F3460;
+    border-radius: 8px;
+    
+}
+
+.sumer{
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 16px #0008;
+  border-radius: 8px;
+  
+  
+}
+.meioinfos{
+  padding: 10px;
+}
+.lista{  
+  background-color:#000000de;
+  border: 2px solid #0F3460;
+  padding: 10px;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008
+}
+  
+.episodios {
+  background-color:rgba(0, 0, 0, 0.87);
+  border: 2px solid #0F3460;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008;
+}
+
+.episodios h4 {
+  color:white;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.episodios ul {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+.episodios li {
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+.cpirait{
+  background-color:#0F3460;
+  padding:5px 5px 5px 5px;
+  border-radius: 8px;
+}
+.episodios img {
     width: 275px;
     border: 5px solid black;
-}   
-
-body{
-    background: rgb(48, 46, 46);
-}
-
-main{
-    display: flex;
-
-}
-
-.titulo h3{
-    color: gray;
-    font-size: 25px;
-}
-
-
-
-.capitulos{
-    font-size: 30px;
-    color:black;
-
+    display: block;
+    
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0008;
 }
