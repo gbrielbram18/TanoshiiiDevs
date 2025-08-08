@@ -15,10 +15,6 @@
     color: white;
 }
 
-.titulo h3{
-    color: gray;
-    font-size: 15px;
-}
 
 p{
 font-size: 15px;
@@ -26,7 +22,7 @@ font-size: 15px;
 
 img{ 
     width: 275px;
-    border: 5px solid black ;
+    border: 5px solid black;
 }   
 
 body{
@@ -40,5 +36,13 @@ main{
 
 .titulo h3{
     color: gray;
-    font-size: 15px;
+    font-size: 25px;
+}
+
+
+
+.capitulos{
+    font-size: 30px;
+    color:black;
+
 }
