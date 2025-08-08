@@ -7,17 +7,17 @@ body{
 display: flex;
 }
 
-header{
-    width: 0 auto;
+header {
+    width: 100%;
     padding: 2.5rem;
-    margin: 15px auto;
-    background-color:rgba(0, 0, 0, 0.966);
-    
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.87);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid #0F3460;
-    text-decoration: none;
+    border-radius: 8px;
+    
 }
 
 .sumer{
@@ -25,7 +25,8 @@ header{
   border: 2px solid #0F3460;
   padding: 10px;
   margin: 20px;
-  box-shadow: 0 2px 16px #0008
+  box-shadow: 0 2px 16px #0008;
+  border-radius: 8px;
   
   
 }
@@ -38,12 +39,16 @@ header{
   padding: 10px;
   padding: 30px;
   margin: 30px 0;
-  box-shadow: 0 2px 16px #0008}
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008
+}
+  
 .episodios {
   background-color:rgba(0, 0, 0, 0.87);
   border: 2px solid #0F3460;
   padding: 30px;
   margin: 30px 0;
+  border-radius: 8px;
   box-shadow: 0 2px 16px #0008;
 }
 
@@ -66,6 +71,7 @@ header{
   line-height: 1.5;
 }
 .cpirait{
-   background-color:#0F3460;
+  background-color:#0F3460;
   padding:5px 5px 5px 5px;
+  border-radius: 8px;
 }

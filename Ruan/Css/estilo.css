@@ -1,44 +1,122 @@
+body {
+    background: rgb(48, 46, 46);
+    background-image: url("../img/pk.png");
+}
+
+
+section {
+    display: flex;
+}
+
+
 #foto {
 
-  text-align: center;
-  background-color: #00509d;
-  margin: 10px 10px 10px 10px;
-  border: solid black;
-  border-width: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  box-sizing: border-box;
-  flex-basis: 20%;
+    text-align: center;
+    background-color: #00509d;
+    margin: 10px 10px 10px 10px;
+    border: solid black;
+    border-width: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    flex-basis: 20%;
+    border-radius: 8px;
 }
 
 #sinopse {
-  width: 200px;
-  text-align: justify;
-  margin: 10px 10px 10px 10px;
-  padding: 35px 35px 20px 35px;
-  box-sizing: content-box;
-  font-size: 22px;
-  color: #f4f3ee;
-  font-family: arial;
-  background-color: black;
-  flex-basis: 80%
+    width: 200px;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    padding: 35px 35px 20px 35px;
+    box-sizing: content-box;
+    font-size: 22px;
+    color: #f4f3ee;
+    font-family: arial;
+   /*  background-color: rgba(0, 0, 0, 0.87);*/
+    flex-basis: 80%;
+    border-radius: 8px;
 }
 
-section {
-  display: flex;
+
+.titulos {
+    font-size: 27px;
+    font-family: ravie;
+    color: #fdc500;
+    padding: 20px 10px 10px 10px;
+    border-radius: 8px;
 }
 
-body {
-  background: rgb(48, 46, 46);
-  background-image: url(img/pk.png);
+.lista-ep {
+    font-size: 22px;
+    font-family: arial;
+    color: #f4f3ee;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    flex-basis: 30%;
+    border:solid white;
 }
 
-h2 {
-  font-size: 25px;
+.episodios {
+    padding: 20px 10px 20px 10px;
+   /* background-color: rgba(0, 0, 0, 0.87);*/
+    border-radius: 8px;
 }
 
-div {
-  font-size: 25px;
-  color: #fdc500;
-  font-family: arial;
-
+header {
+    width: 100%;
+    padding: 2.5rem;
+    margin-bottom: 30px;
+    background-color: #0F0F2D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #0F3460;
+    border-radius: 8px;
 }
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header ul li a {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+.cpirait {
+    background-color: #0F3460;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    
+}
+
+.videos {
+    /* background-color: rgba(0, 0, 0, 0.87);*/
+    
+    display: flex;
+    
+    justify-content:space-between;
+}
+
+.vd{
+    border: solid white;
+    flex-basis: 30%;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+ 
+}
+
