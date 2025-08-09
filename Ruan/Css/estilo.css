@@ -64,12 +64,13 @@ header {
     width: 100%;
     padding: 2.5rem;
     margin-bottom: 30px;
-    background-color: #0F0F2D;
+    background-color: rgba(0, 0, 0, 0.87);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid #0F3460;
     border-radius: 8px;
+
 }
 
 header h1 {
@@ -95,7 +96,7 @@ header ul li a:hover {
 }
 
 .cpirait {
-  
+
   padding: 5px 5px 5px 5px;
   border-radius: 8px;
   color: #ffffff;
