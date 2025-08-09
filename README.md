@@ -37,5 +37,3 @@ _As tarefas específicas e desafios enfrentados serão adicionados futuramente._
 Este projeto é disponibilizado sob a licença MIT.  
 Você pode usar, modificar e distribuir este projeto livremente, desde que preserve os créditos dos autores.
 
-# TanoshiiiDevs---Copia
-# TanoshiiiDevs---Copia
