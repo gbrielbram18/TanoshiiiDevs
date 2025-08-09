@@ -95,12 +95,10 @@ header ul li a:hover {
 }
 
 .cpirait {
-    background-color: #0F3460;
-    padding: 5px 5px 5px 5px;
-    border-radius: 8px;
-
+  background-color: rgba(15, 51, 96, 0.548);
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
 }
-
 .videos {
     display: flex;
     justify-content: space-between;
