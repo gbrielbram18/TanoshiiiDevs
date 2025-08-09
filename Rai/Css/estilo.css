@@ -20,6 +20,10 @@ header {
     
 }
 
+.capimg{
+  flex-basis: 20%;
+}
+
 .sumer{
   background-color:rgba(0, 0, 0, 0.87);
   border: 2px solid #0F3460;
@@ -27,9 +31,10 @@ header {
   margin: 20px;
   box-shadow: 0 2px 16px #0008;
   border-radius: 8px;
-  
-  
+  flex-basis: 80%;
+
 }
+
 .meioinfos{
   padding: 10px;
 }
@@ -44,8 +49,8 @@ header {
 }
   
 .episodios {
-  background-color:rgba(0, 0, 0, 0.87);
-  border: 2px solid #0F3460;
+  
+
   padding: 30px;
   margin: 30px 0;
   border-radius: 8px;
@@ -75,83 +80,7 @@ header {
   padding:5px 5px 5px 5px;
   border-radius: 8px;
 }
-body{
-  background-color: #0F3460;
-  background-image: url(../img/png-clipart-one-piece-jolly-roger-dock-and-folder-icons-by-luffy-jolly-roger-straw-hat-pirates-logo-thumbnail-removebg-preview.png);
-  color: rgb(255, 255, 255);
-}
-.meioinfos{
-display: flex;
-}
 
-header {
-    width: 100%;
-    padding: 2.5rem;
-    margin-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.87);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #0F3460;
-    border-radius: 8px;
-    
-}
-
-.sumer{
-  background-color:rgba(0, 0, 0, 0.87);
-  border: 2px solid #0F3460;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 0 2px 16px #0008;
-  border-radius: 8px;
-  
-  
-}
-.meioinfos{
-  padding: 10px;
-}
-.lista{  
-  background-color:#000000de;
-  border: 2px solid #0F3460;
-  padding: 10px;
-  padding: 30px;
-  margin: 30px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 16px #0008
-}
-  
-.episodios {
-  background-color:rgba(0, 0, 0, 0.87);
-  border: 2px solid #0F3460;
-  padding: 30px;
-  margin: 30px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 16px #0008;
-}
-
-.episodios h4 {
-  color:white;
-  margin-top: 32px;
-  margin-bottom: 10px;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-}
-
-.episodios ul {
-  margin-bottom: 20px;
-  padding-left: 24px;
-}
-
-.episodios li {
-  margin-bottom: 6px;
-  font-size: 1.05em;
-  line-height: 1.5;
-}
-.cpirait{
-  background-color:#0F3460;
-  padding:5px 5px 5px 5px;
-  border-radius: 8px;
-}
 .episodios img {
     width: 275px;
     border: 5px solid black;
@@ -159,4 +88,29 @@ header {
     
     border-radius: 12px;
     box-shadow: 0 2px 8px #0008;
+}
+
+.baixoinfos{
+display: flex ;
+justify-content: space-between;
+background-color:rgba(0, 0, 0, 0.87);
+}
+.videos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+}
+
+.vd {
+    flex-basis: 30%;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008;
+
+
 }

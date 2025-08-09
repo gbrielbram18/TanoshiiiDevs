@@ -20,6 +20,10 @@ header {
     
 }
 
+.capimg{
+  flex-basis: 20%;
+}
+
 .sumer{
   background-color:rgba(0, 0, 0, 0.87);
   border: 2px solid #0F3460;
@@ -27,9 +31,10 @@ header {
   margin: 20px;
   box-shadow: 0 2px 16px #0008;
   border-radius: 8px;
-  
-  
+  flex-basis: 80%;
+
 }
+
 .meioinfos{
   padding: 10px;
 }
@@ -44,8 +49,8 @@ header {
 }
   
 .episodios {
-  background-color:rgba(0, 0, 0, 0.87);
-  border: 2px solid #0F3460;
+  
+
   padding: 30px;
   margin: 30px 0;
   border-radius: 8px;
@@ -83,4 +88,29 @@ header {
     
     border-radius: 12px;
     box-shadow: 0 2px 8px #0008;
+}
+
+.baixoinfos{
+display: flex ;
+justify-content: space-between;
+background-color:rgba(0, 0, 0, 0.87);
+}
+.videos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+}
+
+.vd {
+    flex-basis: 30%;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #0008;
+
+
 }
